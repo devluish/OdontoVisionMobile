@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:fitsSystemWindows="true"
+    tools:context=".menu.AgendaActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+    android:id="@+id/header"
+    android:layout_width="match_parent"
+    android:layout_height="72dp"
+    android:background="@color/telalogin"
+    app:layout_constraintTop_toTopOf="parent">
+
+<!-- Seta de voltar -->
+<ImageView
+    android:id="@+id/back_arrow"
+    android:layout_width="48dp"
+    android:layout_height="48dp"
+    android:layout_marginEnd="16dp"
+    android:src="@drawable/seta_voltar"
+    android:contentDescription="@string/back_arrow_description"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintBottom_toBottomOf="parent"
+    android:clickable="true"
+    android:focusable="true" />
+
+<!-- Logo -->
+<ImageView
+    android:id="@+id/logo"
+    android:layout_width="60dp"
+    android:layout_height="50dp"
+    android:layout_marginStart="16dp"
+    android:contentDescription="@string/logo_description"
+    android:src="@drawable/logo_odontoprev"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent" />
+
+<!-- Título do header -->
+<TextView
+    android:id="@+id/header_text"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginEnd="16dp"
+    android:text="@string/agenda"
+    android:textColor="@color/white"
+    android:textSize="18sp"
+    android:textStyle="bold"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.36"
+    app:layout_constraintStart_toEndOf="@+id/logo"
+    app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+    <!-- Texto "Agenda" abaixo do header -->
+    <TextView
+        android:id="@+id/agenda"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:text="@string/agendamento"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/header" />
+
+    <!-- Botão "Meus Agendamentos" -->
+    <Button
+        android:id="@+id/button_agendamento"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="356dp"
+        android:text="@string/meus_agendamentos"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintWidth_percent="0.8" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+

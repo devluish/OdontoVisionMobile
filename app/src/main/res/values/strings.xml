@@ -1,0 +1,34 @@
+<resources>
+    <string name="back_arrow_description">Voltar</string>
+    <string name="app_name">OdontoVision</string>
+    <string name="logo_description">Logo da empresa</string>
+    <string name="cirurgia">Cirurgia</string>
+    <string name="consulta_rotina">Consulta\nRotina</string>
+    <string name="tratamento_canal">Tratamento\nCanal</string>
+    <string name="coroa_bloco">Coroa ou\nBloco</string>
+    <string name="emergencia">Emergência</string>
+    <string name="clareamento">Clareamento</string>
+    <string name="exames">Exames</string>
+    <string name="restauracao_protese">Restauração\ne\nPrótese</string>
+    <string name="tratamento_carie">Tratamento\nde\nCárie</string>
+    <string name="teleconsulta">Teleconsulta</string>
+    <string name="siso">Siso</string>
+    <string name="tratamento_gengiva">Tratamento\nGengiva</string>
+    <string name="meu_plano">MEU PLANO</string>
+    <string name="cobertura">Cobertura</string>
+    <string name="agendamento">Agendamentos</string>
+    <string name="agenda">Agenda</string>
+    <string name="meus_agendamentos">Meus agendamentos</string>
+    <string name="meu_perfil">Meu perfil</string>
+    <string name="dados_beneficiario">Dados do Beneficiário</string>
+    <string name="buscar_dentista">Buscar Dentista</string>
+    <string name="pesquisa">Pesquisa</string>
+    <string name="fale_conosco">Fale Conosco</string>
+    <string name="Contato">Contato</string>
+    <string name="perguntas_frequentes">Perguntas Frenquentes</string>
+    <string name="Digite_seu_login">Digite seu login</string>
+    <string name="Digite_sua_senha">Digite sua senha</string>
+    <string name="selecione_uma_especialidade">Selecione uma especialidade</string>
+    <string name="especialidade">Selecione uma especialidade</string>
+
+</resources>
